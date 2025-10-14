@@ -1,20 +1,10 @@
 import type { Metadata } from "next";
-import { Nunito, Nunito_Sans } from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
 import { createClient } from "@/prismicio";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-const nunito = Nunito({
-  variable: "--font-nunito",
-  subsets: ["latin"],
-});
-
-const nunitoSans = Nunito_Sans({
-  variable: "--font-nunito-sans",
-  subsets: ["latin"],
-});
+import { nunito, nunitoSans } from "./lib/fonts";
 
 export async function generateMetadata(): Promise<Metadata> {
   const client = createClient();
