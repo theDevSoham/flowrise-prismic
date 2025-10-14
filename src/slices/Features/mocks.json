@@ -13,8 +13,8 @@
 								"icon",
 								{
 									"__TYPE__": "FieldContent",
-									"value": "hourglass",
-									"type": "Select"
+									"type": "Select",
+									"value": "calendar"
 								}
 							],
 							[
@@ -25,8 +25,10 @@
 										{
 											"type": "heading3",
 											"content": {
-												"text": "Sudden"
-											}
+												"text": "Scheduling",
+												"spans": []
+											},
+											"direction": "ltr"
 										}
 									]
 								}
@@ -39,8 +41,10 @@
 										{
 											"type": "paragraph",
 											"content": {
-												"text": "Ut labore anim reprehenderit reprehenderit in ut aute aute. Ullamco est adipisicing exercitation fugiat tempor. Voluptate do nostrud magna eiusmod."
-											}
+												"text": "Create task schedules synced to your natural energy peaks and troughs.",
+												"spans": []
+											},
+											"direction": "ltr"
 										}
 									]
 								}
