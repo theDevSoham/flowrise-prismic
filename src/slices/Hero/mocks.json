@@ -9,8 +9,10 @@
 					{
 						"type": "heading1",
 						"content": {
-							"text": "Concerned"
-						}
+							"text": "Productivity that flows \nwith your life.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -20,8 +22,10 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Ullamco est non do occaecat culpa duis in do cillum duis est deserunt. Voluptate anim aliqua Lorem anim qui proident."
-						}
+							"text": "Unleash your potential by harmonizing your daily tasks and habits with your unique energy rhythms.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -34,13 +38,7 @@
 					"text": "whistle"
 				}
 			},
-			"button_text": {
-				"__TYPE__": "FieldContent",
-				"value": "power",
-				"type": "Text"
-			},
 			"image": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
@@ -59,7 +57,14 @@
 					"background": "transparent"
 				},
 				"alt": "pink",
+				"credits": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Try it now"
 			}
 		},
 		"items": []
